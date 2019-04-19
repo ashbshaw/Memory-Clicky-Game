@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ashbshaw/Memory-Clicky-Game/precache-manifest.f680ceab0ca1023e5a073e7fc269cb0a.js"
+  "/Memory-Clicky-Game/precache-manifest.4d2c08b55a8097f80a719e9c59efaaba.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/ashbshaw/Memory-Clicky-Game/index.html", {
+workbox.routing.registerNavigationRoute("/Memory-Clicky-Game/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
