@@ -12,7 +12,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -23,11 +25,5 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "homepage": "https://github.com/ashbshaw/Clicky-Game",
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build"
-}
+  "homepage": "https://github.com/ashbshaw/Memory-Clicky-Game"
 }
