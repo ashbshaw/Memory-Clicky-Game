@@ -6,7 +6,7 @@ This app is a memory game with React. In this game, the user must click on each 
 
 **Deploy App**
 
-Visit this site to deploy the app: 
+Visit this site to deploy the app: https://ashbshaw.github.io/Memory-Clicky-Game/
 
 ## **Technical Details**
 **Technologies Used**
